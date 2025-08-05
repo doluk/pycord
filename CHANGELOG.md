@@ -67,6 +67,11 @@ These changes are available on the `master` branch, but have not yet been releas
   ([#2817](https://github.com/Pycord-Development/pycord/pull/2817))
 - Added role gradients support with `Role.colours` and the `RoleColours` class.
   ([#2818](https://github.com/Pycord-Development/pycord/pull/2818))
+- Added `Interaction.attachment_size_limit`.
+  ([#2854](https://github.com/Pycord-Development/pycord/pull/2854))
+- Added the ability to pass default values into `ui.Select` of type
+  `ComponentType.channel_select`, `ComponentType.user_select`,
+  `ComponentType.role_select` and `ComponentType.mentionable_select`
 
 ### Fixed
 
